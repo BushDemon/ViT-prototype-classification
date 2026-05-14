@@ -57,6 +57,7 @@ Vyhodnocované budú napríklad:
 - [x] Založenie GitHub repozitára
 - [x] Príprava LaTeX kostry práce
 - [x] Základný prehľad literatúry
+- [x] Testovanie knižníc a Vision transformeru z torch vision knižnice 
 - [ ] Implementácia baseline Vision Transformer modelu
 - [ ] Implementácia klasického classification head
 - [ ] Implementácia klasifikácie založenej na vynorení
