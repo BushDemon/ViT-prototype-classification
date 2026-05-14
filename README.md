@@ -70,7 +70,7 @@ Vyhodnocované budú napríklad:
 
 ```text
 .
-├── docs/           # diplomová práca, PDF a .bib súbory
+├── docs/           # diplomová práca, literatúra, PDF a .bib súbor
 ├── experiments/    # experimenty a notebooky
 ├── src/            # implementácia modelov
 ├── data/           # datasety
