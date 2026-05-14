@@ -53,11 +53,11 @@ Vyhodnocované budú napríklad:
 
 ## Aktuálny progres
 
-- [x] Schválenie témy diplomovej práce
 - [x] Založenie GitHub repozitára
 - [x] Príprava LaTeX kostry práce
 - [x] Základný prehľad literatúry
-- [x] Testovanie knižníc a Vision transformeru z torch vision knižnice 
+- [x] Testovanie knižníc a Vision transformeru z torch vision knižnice
+- [x] Príprava prezentácie na Projektový seminár 1
 - [ ] Implementácia baseline Vision Transformer modelu
 - [ ] Implementácia klasického classification head
 - [ ] Implementácia klasifikácie založenej na vynorení
