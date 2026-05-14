@@ -2,6 +2,14 @@
 \addcontentsline{toc}{chapter}{Úvod} % rucne pridanie do obsahu
 \markboth{Úvod}{Úvod} % vyriesenie hlaviciek
 
-...
+V posledných rokoch zaznamenali metódy hlbokého učenia výrazný pokrok v oblasti spracovania obrazu a počítačového videnia. Medzi najvýznamnejšie architektúry patria konvolučné neurónové siete, ktoré boli dlhodobo dominantným prístupom pri úlohách klasifikácie obrazu. S rozvojom transformer architektúr, pôvodne navrhnutých pre spracovanie prirodzeného jazyka, sa však začali objavovať aj nové prístupy založené na mechanizme self-attention.
+
+Jedným z takýchto prístupov sú Vision Transformery (ViT), ktoré aplikujú transformer architektúru na úlohy spracovania obrazu. Namiesto klasických konvolučných operácií rozdeľujú vstupný obraz na menšie časti nazývané patch-e, ktoré následne spracovávajú podobným spôsobom ako tokeny v jazykových modeloch. Významnou súčasťou Vision Transformerov je tzv. CLS token, ktorý reprezentuje globálnu informáciu o celom obraze a slúži ako vstup pre následnú klasifikáciu.
+
+Štandardne býva klasifikácia vo Vision Transformeroch realizovaná pomocou klasifikačnej hlavy, ktorá z CLS tokenu vypočítava pravdepodobnosti jednotlivých tried. Okrem klasického prístupu však existujú aj alternatívne metódy založené na porovnávaní výstupného embeddingu s reprezentáciami jednotlivých kategórií. Takýto prístup je v tejto práci označovaný ako vynorenie.
+
+Diplomová práca sa zameriava na experimentálne preskúmanie klasifikácie založenej na vynorení vo Vision Transformeroch. Hlavnou myšlienkou je skúmať možnosť reprezentácie jednej kategórie viacerými vektormi namiesto jediného prototypu triedy. Predpokladom je, že viacvektorová reprezentácia môže lepšie zachytiť variabilitu objektov v rámci jednej kategórie a umožniť flexibilnejšie porovnávanie výstupných reprezentácií modelu.
+
+Cieľom práce bude analyzovať existujúce klasifikačné mechanizmy vo Vision Transformeroch, implementovať experimentálne prístupy založené na vynorení a následne ich porovnať s klasickým MLP head prístupom pomocou vybraných metrík klasifikácie obrazu.
 
 
