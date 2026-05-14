@@ -22,7 +22,6 @@ __pycache__/
 *.fls
 
 # Datasety a výsledky
-data/
 results/
 
 # OS files
