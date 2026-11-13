@@ -3,7 +3,7 @@ Diplomová práca zameraná na experimentálne prístupy ku klasifikácii obrazu
 
 ## Popis projektu
 
-Vision Transformery (ViT) patria medzi moderné architektúry určené na klasifikáciu obrazu. Štandardne býva klasifikácia realizovaná pomocou klasifikačnej hlavy (MLP head), ktorá zo špeciálneho CLS tokenu vypočítava logaritmy pravdepodobností jednotlivých tried.
+Vision Transformery (ViT) patria medzi moderné architektúry určené na klasifikáciu obrazu. Štandardne býva klasifikácia realizovaná pomocou vynorenia kde sa výstupný CLS token porovnáva s reprezentantmi tried.
 
 Hlavným cieľom práce je experimentálne overiť prístup, v ktorom môže byť jedna kategória reprezentovaná viacerými vektormi namiesto jedného.
 
@@ -14,9 +14,8 @@ Hlavným cieľom práce je experimentálne overiť prístup, v ktorom môže by�
 - analyzovať architektúru Vision Transformerov,
 - preskúmať klasické klasifikačné hlavy vo Vision Transformeroch,
 - implementovať klasifikáciu založenú na vynorení,
-- navrhnúť viacvektorovú reprezentáciu kategórií,
-- experimentálne porovnať navrhnutý prístup s klasickým MLP head prístupom,
-- vyhodnotiť výsledky pomocou metrík klasifikácie.
+- porovnať navrhnutý prístup s klasickým prístupom,
+- vyhodnotiť výsledky
 
 ---
 
@@ -24,17 +23,9 @@ Hlavným cieľom práce je experimentálne overiť prístup, v ktorom môže by�
 
 Experimenty budú zamerané na porovnanie:
 
-- klasického MLP head prístupu,
-- klasifikácie založenej na vynorení,
-- viacvektorového modelu vynorenia.
+- klasifikácie založenej na vynorení
+- viacvektorového modelu vynorenia
 
-Vyhodnocované budú napríklad:
-
-- accuracy,
-- validation loss,
-- confusion matrix,
-- stabilita učenia,
-- podobnosť embeddingov.
 
 ---
 
